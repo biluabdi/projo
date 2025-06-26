@@ -1,0 +1,96 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6; /* light gray */
+  color: #222;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Container around everything */
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* Main title */
+.container h1 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #1f2937; /* slate gray */
+}
+
+/* The list of facts */
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 0;
+}
+
+li {
+  background-color: #f9fafb;
+  border-left: 6px solid #007acc;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #eef6fc;
+}
+
+/* Mr. Bilal's statement */
+li p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827; /* dark gray */
+}
+
+/* Explanation below each fact */
+li small {
+  font-size: 0.95rem;
+  margin-top: 8px;
+  display: block;
+  font-style: italic;
+  color: #4b5563; /* muted gray */
+}
+
+/* Cat image */
+li img {
+  margin-top: 14px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 150px;
+  display: block;
+}
+
+/* Load button */
+button#load-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button#load-btn:hover {
+  background-color: #005fa3;
+}
+
