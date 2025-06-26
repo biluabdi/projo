@@ -24,7 +24,7 @@ Mr. Bilal's Cat Facts is a small JavaScript-based project that:
 - Interactive UI – Button reloads new content instantly
 - In-Character UX – All messages come from “Mr. Bilal”
 
----
+
 
 ## Project Structure
 
