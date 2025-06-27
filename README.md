@@ -1,49 +1,43 @@
-# Mr. Bilal's Cat Facts
+# Mr. Bilal’s Cat Facts App
 
-A witty, interactive web app that fetches random cat facts and delivers clever, human-style explanations — narrated by none other than **Mr. Bilal** himself.
-
----
-
-## Overview
-
-Mr. Bilal's Cat Facts is a small JavaScript-based project that:
-
-- Fetches 5 random cat facts from an external API.
-- Analyzes each fact and provides a playful explanation based on keywords.
-- Displays a random cat image for every fact.
-- Responds to user clicks and auto-loads facts when the page opens.
-- Handles API errors with character-friendly messages.
+A simple full-stack web app where users can view, add, edit, and delete fun cat facts.  
+Built with Node.js/Express for the backend API and vanilla JavaScript for the frontend.
 
 ---
 
 ## Features
 
-- Live Cat Facts – Powered by [catfact.ninja](https://catfact.ninja)
-- Smart Explanations – Each fact gets a tailored, witty follow-up
-- Dynamic Images – New random cat image every time
-- Interactive UI – Button reloads new content instantly
-- In-Character UX – All messages come from “Mr. Bilal”
+- Display a list of cat facts
+- Add new cat facts
+- Edit existing facts
+- Delete facts
+- Simple, clean UI with responsive design
+- RESTful API backend with Express
+- CORS enabled for frontend-backend communication
 
 
 
-## Project Structure
+## Backend (API Server)
 
-```plaintext
-├── index.html        # Main HTML structure
-├── index.css         # Styling and layout
-├── index.js          # JavaScript logic
-└── README.md         # Project documentation (this file)
----
-## preview
-Mr. Bilal says: “You better appreciate this interface — I don’t purr for free.”
+### Technologies
 
-## license
-this a public code and is free to everyone
+- Node.js
+- Express
+- CORS middleware
 
-## author 
-Bilal – Frontend Strategist and Narrative Engineer
-"Code is power. But code with personality? That’s influence."
+### How to run
 
+1. Make sure you have Node.js installed  
+2. Navigate to the backend folder (if applicable)  
+3. Install dependencies (if needed):
+   ```bash
+   npm install express cors
+ ## license
+ its open and free to use
+ --
+ ## author
+ Bilal Abdirahman
+ 
 
 
 

@@ -2,24 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mr. Whiskers' Cat Facts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mr. Bilal’s Cat Facts</title>
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Mr. Whiskers' Cat Facts</h1>
+    <h1> Mr. Bilal’s Cat Facts</h1>
+
+    <form id="fact-form" class="fact-form">
+      <label for="fact-input">Add your own cat fact:</label>
+      <input
+        type="text"
+        id="fact-input"
+        placeholder="Enter a cat fact"
+      
+        required
+      />
+      <div class="buttons">
+        <button type="submit" id="submit-btn">Add Fact</button>
+        <button type="button" id="cancel-btn" class="hidden">Cancel</button>
+      </div>
+    </form>
+
+    <ul id="facts-list" class="facts-list">
     
-    <p class="intro">
-      Hello, hooman. I’m <strong>Mr. Bilal</strong> — your feline professor for today. 
-      Sit down, grab a warm drink, and let me blow your tiny mind with my glorious knowledge.
-    </p>
-
-    <ul id="facts-list"></ul>
-
-    <button id="load-btn">Tell Me More Mr. Bilal</button>
+    </ul>
   </div>
 
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 </body>
 </html>
